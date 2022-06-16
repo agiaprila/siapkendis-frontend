@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Kendaraan</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a href="#"><h1>SIPKENAS</h1></a>
+            
+            <ul class="nav-menu">
+                <a href="../dashboard/dashboard.html"><li class="dashboard">Dashboard</li></a>
+                <li class="master-data">Master Data</li>
+                    <ul class="list-data">
+                        <a href="../vehicles/vehicles.html"><li>Data Kendaraan</li></a>
+                        <a href=""><li>Data Admin</li></a>
+                        <a href=""><li>Data User</li></a>
+                        <a href=""><li>Data Pemegang</li></a>
+                    </ul>
+                <li class="report">Laporan</li>
+            </ul>
+            <ul>
+                <a href="../../index.html"><li class="logout">Logout</li></a>
+            </ul>
+        </header>
+
+        <main>
+            <article id="header-dashboard">
+                <h2>Kendaraan Dinas</h2>
+                <div class="profile">
+                    <p>Selamat Datang, <span>Admin!</span></p>
+                    <img src="../img/pp-profile.png" alt="">
+                </div>
+            </article>
+
+            <article id="content">
+                <h3>Data Kendaraan</h3>
+                <a href=""><input type="button" name="add-data" value="Tambah Data"></a>
+            </article>
+
+            <article id="table-vehicle">
+                <form action="" class="btn-search">
+                    <input type="search" name="search" placeholder="Search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+
+                <table>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nama</th>
+                        <th>Merk</th>
+                        <th>No. Rangka</th>
+                        <th>No. Mesin</th>
+                        <th>No. BPKB</th>
+                        <th>No. Polisi</th>
+                        <th>Tahun</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Mio 125 CC</td>
+                        <td>Yamaha</td>
+                        <td>123468531</td>
+                        <td>853268942</td>
+                        <td>775234574</td>
+                        <td>645345687</td>
+                        <td>2012</td>
+                        <td>Tersedia</td>
+                        <td><a href="#">Edit</a> | <a href="#">Hapus</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Satria FU 150 CC</td>
+                        <td>Suzuki</td>
+                        <td>187654374</td>
+                        <td>764532123</td>
+                        <td>876432457</td>
+                        <td>764324563</td>
+                        <td>2014</td>
+                        <td>Dipinjam</td>
+                        <td><a href="#">Edit</a> | <a href="#">Hapus</a></td>
+                    </tr><tr>
+                        <td>3</td>
+                        <td>Agya Merah</td>
+                        <td>Toyota</td>
+                        <td>876542345</td>
+                        <td>987543246</td>
+                        <td>234213434</td>
+                        <td>999765436</td>
+                        <td>2016</td>
+                        <td>Tersedia</td>
+                        <td><a href="#">Edit</a> | <a href="#">Hapus</a></td>
+                    </tr>
+                </table>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
