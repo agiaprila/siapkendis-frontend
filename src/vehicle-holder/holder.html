@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data User</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a href="#"><h1>SIPKENAS</h1></a>
+            
+            <ul class="nav-menu">
+                <a href="../dashboard/dashboard.html"><li class="dashboard">Dashboard</li></a>
+                <li class="master-data">Master Data</li>
+                    <ul class="list-data">
+                        <a href="../vehicles/vehicles.html"><li>Data Kendaraan</li></a>
+                        <a href="../administrator/admin.html"><li>Data Admin</li></a>
+                        <a href="../user/user.html"><li>Data User</li></a>
+                        <a href="../vehicle-holder/holder.html"><li>Data Pemegang</li></a>
+                    </ul>
+                <li class="report">Laporan</li>
+            </ul>
+            <ul>
+                <a href="../../index.html"><li class="logout">Logout</li></a>
+            </ul>
+        </header>
+
+        <main>
+            <article id="header-dashboard">
+                <h2>Administrator</h2>
+                <div class="profile">
+                    <p>Selamat Datang, <span>Admin!</span></p>
+                    <img src="../img/pp-profile.png" alt="">
+                </div>
+            </article>
+
+            <article id="content">
+                <h3>Data Pemegang Kendaraan</h3>
+                <a href=""><input type="button" name="add-data" value="Tambah Data"></a>
+            </article>
+
+            <article id="table-admin">
+                <form action="" class="btn-search">
+                    <input type="search" name="search" placeholder="Search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+
+                <table>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>No HP</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>User</td>
+                        <td>myuser@gmail.com</td>
+                        <td>082267754444</td>
+                        <td><a href="#">Edit</a> | <a href="#">Hapus</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Nanda</td>
+                        <td>nandahafizah@gmail.com</td>
+                        <td>087888843221</td>
+                        <td><a href="#">Edit</a> | <a href="#">Hapus</a></td>
+                    </tr>
+                </table>
+            </article>
+        </main>
+    </div>  
+</body>
+</html>

@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #17515E; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1d6172; 
+  }
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -39,17 +57,13 @@ ul {
     list-style: none;
 }
 
-.nav-menu > a {
-    color: #eeeeee;
-    font-weight: 600;
-}
-
-.nav-menu > a:hover {
-    color: #FFFFFF;
-}
-
 .nav-menu {
     margin: 0;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    font-weight: 600;
 }
 
 .nav-menu > li {
@@ -92,6 +106,7 @@ li.master-data {
 
 .list-data a{
     color: #3d3737;
+    font-weight: 400;
 }
 
 .list-data li:hover {
@@ -156,58 +171,95 @@ main {
 }
 
 #content {
-    height: 75vh;
-    padding: 2rem;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    background: radial-gradient(129% 217.74% at -23.26% 20.08%, #F4F4F4 0%, #F9F9F9 100%);
+    align-items: center;
+    margin: 0.5rem 2rem;
 }
 
-#content .card {
-    margin: 1rem 0;
-    width: 13rem;
-    height: 9rem;
-    text-align: center;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+#content h3 {
+    color: #343840;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
 
-#content .card p{
-    margin: 0;
-    font-size: 5rem;
+#content input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
     font-weight: 700;
-    font-style: italic;
+    width: 8rem;
+    height: 2.5rem;
+    color: #FFFFFF;
+    background: #52BC68;
+    border: 1px solid #52BC68;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease-out;
 }
 
-#content .card span {
-    font-size: 1rem;
+#table-admin {
+    margin: 0 2rem;
+    padding: 2rem;
+    background: #FFFFFF;
+    box-shadow: -2px -1px 6px rgba(0, 0, 0, 0.25), 2px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    overflow-x: hidden;
+    height: 23rem;
 }
 
-#content .vehicle h3 {
-    margin: 0;
-    padding: 0.7rem;
-    background: #C3423F;
-    color: #ffffff;
-    font-size: 1rem;
-    border-radius: 10px 10px 0px 0px;
+#table-admin .btn-search {
+    text-align: right;
 }
 
-#content .user h3 {
-    margin: 0;
-    padding: 0.7rem;
-    background: #21A179;
-    color: #ffffff;
-    font-size: 1rem;
-    border-radius: 10px 10px 0px 0px;
+.btn-search input {
+    padding: 8px;
+    border: 1px solid #8E8E8E;
+    border-radius: 5px 0 0 5px;
+    width: 15%;
+    background: #ffffff;
 }
 
-#content .holder h3 {
-    margin: 0;
-    padding: 0.7rem;
-    background: #247BA0;
-    color: #ffffff;
-    font-size: 1rem;
-    border-radius: 10px 10px 0px 0px;
+.btn-search button {
+    float: right;
+    width: 4%;
+    padding:8px;
+    background: #17515E;
+    color: white;
+    border: 1px solid #17515E;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    cursor: pointer;
+}
+
+#content input:hover {
+    background: #4a9b5a;
+}
+
+table, tr, th, td {
+    text-align: center;
+    border: 1px solid #8E8E8E;
+}
+
+table {
+    margin: 1rem 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr th {
+    padding: 1rem 0.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #17515E;
+}
+
+table tr td {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.2rem 0;
+}
+
+table tr td a {
+    color: #343840;
+    font-weight: 600;
+    text-decoration: none;
 }
