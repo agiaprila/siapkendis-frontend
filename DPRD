@@ -1,0 +1,120 @@
+{
+    "id": 1,
+    "nama": "Toyota  /  Fortuner 2.5 G A/T",
+    "merk": "Toyota",
+    "noRangka": "MHF2R69G3F3121004",
+    "noMesin": "2KDU713805",
+    "noBPKB": "L-07580818",
+    "noPolisi": "DN 2 C",
+    "tahun": 2015,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }
+  {
+    "id": 2,
+    "nama": "TOYOTA / KIJANG INNOVA V LUXURY M/T",
+    "merk": "Toyota",
+    "noRangka": "MHFXW43G6F4092704",
+    "noMesin": "1TR-7994417",
+    "noBPKB": "L-07580819",
+    "noPolisi": "DN 7 C",
+    "tahun": 2015,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }
+  {
+    "id": 3,
+    "nama": "Toyota  / Grand New Avanza Velos 1.5 M/T-2016",
+    "merk": "Toyota",
+    "noRangka": "MHKM5FAJGKO18353",
+    "noMesin": "1NR-F561046",
+    "noBPKB": "L- 07552678",
+    "noPolisi": "DN 391 C",
+    "tahun": 2016,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }
+  {
+    "id": 4,
+    "nama": "HONDA NEW VARIO / ESP Exlusive MMC 2017",
+    "merk": "Honda",
+    "noRangka": "MH1KF1125HK181345",
+    "noMesin": "KF11E-2178511",
+    "noBPKB": "L-01898745",
+    "noPolisi": "DN 2449 R",
+    "tahun": 2017,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }
+  {
+    "id": 5,
+    "nama": "Yamaha X - Ride / YAMAHA/2BU",
+    "merk": "Yamaha",
+    "noRangka": "MH32BU002EJ169593",
+    "noMesin": "2BU-169603",
+    "noBPKB": "L-02576321",
+    "noPolisi": "DN 2072 R",
+    "tahun": 2014,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }
+  {
+    "id": 6,
+    "nama": "Honda Blade R",
+    "merk": "Honda",
+    "noRangka": "MH1JBH114EK431872",
+    "noMesin": "JBH1E-1428907",
+    "noBPKB": "K-09021882",
+    "noPolisi": "DN 4348 R",
+    "tahun": 2014,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }
+  {
+    "id": 7,
+    "nama": "Honda Vario Techno Non CBS FI",
+    "merk": "Honda",
+    "noRangka": "MH1JF8115DK943062",
+    "noMesin": "JF81E-1936952",
+    "noBPKB": "K-09008590",
+    "noPolisi": "DN 4352 R",
+    "tahun": 2014,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }
+  {
+    "id": 8,
+    "nama": "Honda / Beat Spprty CW CBS ESP 2016",
+    "merk": "Honda",
+    "noRangka": "MH1JFR118GK328628",
+    "noMesin": "JFR1E - 1325543",
+    "noBPKB": "K-12437861",
+    "noPolisi": "DN 2228 R",
+    "tahun": 2016,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }
+  {
+    "id": 9,
+    "nama": "Suzuki Thunder FL 125 RCD",
+    "merk": "Suzuki",
+    "noRangka": "MHSBF45DA73135652",
+    "noMesin": "F496-ID-166543",
+    "noBPKB": "8299059 S",
+    "noPolisi": "DN 6510 CB",
+    "tahun": 2007,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }
+  {
+    "id": 10,
+    "nama": "Toyota Grand New Veloz",
+    "merk": "Toyota",
+    "noRangka": "MHKM5EA4JHKO17672",
+    "noMesin": "1NRF243890",
+    "noBPKB": "L017672",
+    "noPolisi": "DN 1104 C",
+    "tahun": 2017,
+    "status": "Tersedia",
+    "keterangan": "DPRD"
+  }

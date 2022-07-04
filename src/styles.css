@@ -5,7 +5,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: radial-gradient(58.47% 142.05% at 81.19% 38.72%, #F5F5F5 0%, #FFFFFF 100%)
+    background-image: url(./img/analisis-data.jpg) ;
+    /* background: radial-gradient(58.47% 142.05% at 81.19% 38.72%, #F5F5F5 0%, #FFFFFF 100%) */
 }
 
 main {
@@ -55,6 +56,7 @@ main #login {
     text-align: center;
     margin: 4rem 0;
     padding: 7rem 40px;
+    /* background-image: url(./img/Air-Terjun-Salodik-4-edited.jpg); */
     background-color: #FFFFFF;
     border: 3px solid #17515E;
     border-radius: 0px 20px 20px 0px;

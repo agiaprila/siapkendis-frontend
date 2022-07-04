@@ -1,0 +1,122 @@
+{
+    "id": 1,
+    "nama": "Suzuki 110",
+    "merk": "Suzuki",
+    "noRangka": "MHDRC155SXJ-347683",
+    "noMesin": "E107-ID-647827",
+    "noBPKB": "8727087 S",
+    "noPolisi": "DN 6377 C",
+    "tahun": 1999,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+  {
+    "id": 2,
+    "nama": "Sanex/Siera",
+    "merk": "Siera",
+    "noRangka": "LAWXEGOE2Y-070082",
+    "noMesin": "QJ150FMG-3-00060394",
+    "noBPKB": "0507741",
+    "noPolisi": "DN 6499 C",
+    "tahun": 2001,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+  {
+    "id": 3,
+    "nama": "Yamaha/Jupiter",
+    "merk": "Yamaha",
+    "noRangka": "MH35LM0023K157495",
+    "noMesin": "5LM-157579",
+    "noBPKB": "5799653 S",
+    "noPolisi": "DN 6010 CC",
+    "tahun": 2003,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+  {
+    "id": 4,
+    "nama": "Honda/NF 100LD",
+    "merk": "Honda",
+    "noRangka": "MH1HB21124K304225",
+    "noMesin": "HB21E1296210",
+    "noBPKB": "9181008S",
+    "noPolisi": "DN 6061 CB",
+    "tahun": 2004,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+  {
+    "id": 5,
+    "nama": "MIO GT",
+    "merk": "Yamaha",
+    "noRangka": "MH32BJ001DJ050402",
+    "noMesin": "2BJ-50414",
+    "noBPKB": "K-00535182",
+    "noPolisi": "DN 2041 R",
+    "tahun": 2013,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+  {
+    "id": 6,
+    "nama": "Kawasaki / Trail KLX 150s",
+    "merk": "Kawasaki",
+    "noRangka": "MH4LX150CDKP72835",
+    "noMesin": "LX150CEPB2479",
+    "noBPKB": "K-00849489",
+    "noPolisi": "DN 4123 R",
+    "tahun": 2013,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+  {
+    "id": 7,
+    "nama": "Kawasaki / Trail KLX 150s",
+    "merk": "Kawasaki",
+    "noRangka": "MH4LX150CDKP72835",
+    "noMesin": "LX150CEPB2479",
+    "noBPKB": "K-00849489",
+    "noPolisi": "DN 4123 R",
+    "tahun": 2013,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+  {
+    "id": 8,
+    "nama": "Toyota Kijang",
+    "merk": "Toyota",
+    "noRangka": "MHF11KF80100649B10",
+    "noMesin": "7K-0408590",
+    "noBPKB": "",
+    "noPolisi": "DN 111 CC",
+    "tahun": 1996,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+  {
+    "id": 9,
+    "nama": "Toyota Avanza",
+    "merk": "Toyota",
+    "noRangka": "MHFE2CK3J7K000591",
+    "noMesin": "ITR-6390491",
+    "noBPKB": "6171080",
+    "noPolisi": "B 2439 BQ",
+    "tahun": 2005,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+  {
+    "id": 10,
+    "nama": "HINO DUTRO 130 MDBL",
+    "merk": "Hino",
+    "noRangka": "MJEC1JG53J5001936",
+    "noMesin": "W04DTRR56011",
+    "noBPKB": "M-10687653",
+    "noPolisi": "DN 7508 C",
+    "tahun": 2018,
+    "status": "Tersedia",
+    "keterangan": "SETDA"
+  }
+
+  
